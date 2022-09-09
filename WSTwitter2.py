@@ -1,20 +1,6 @@
-from importlib.resources import contents
-from itertools import count
-from operator import index
-from os import sep
-
-
 from time import sleep
-from selenium import webdriver
-from selenium.webdriver.firefox.service import Service
-from selenium.webdriver.firefox.options import Options
-from webdriver_manager.firefox import GeckoDriverManager
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 
-from twitter_scraper_selenium import scrap_profile 
 from twitter_scraper_selenium import scrap_keyword
-import pandas as pd
 import csv
 
 temp = []
