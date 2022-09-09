@@ -45,6 +45,8 @@ def computeIDFF(tfBow, idfs):
             tfidf[word] = idfs[word]
     return(tfidf)
 
+#Nosso web scrapping retornou 35k de arquivos, por isso geramos um arquivo menor nomeado tw.txt
+
 arq = open("tw.txt")
 linhas = arq.readlines()
 
