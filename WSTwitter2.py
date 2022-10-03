@@ -18,9 +18,9 @@ while(True):
             if linha[9] != "content":
                 temp.append(linha[9])
     
-    with open('tweets2.txt', "a") as f:
+    with open('tweets3.txt', "a") as f:
         for i in temp:
-            f.write(str(i) + "\n")
+            f.write(str(i) + ";")
 
         print('Aguardando próximo processamento')
         
